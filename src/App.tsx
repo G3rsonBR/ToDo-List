@@ -17,6 +17,7 @@ export default function App() {
     content: 'opa'
   }]);
 
+  setTasks
   return (
     <div className={styles.main}>
       <Header />
