@@ -1,0 +1,31 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.tasksCreated {
+  font-size: .875rem;
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.tasksFinished {
+  font-size: .875rem;
+  color: var(--purple);
+  font-weight: bold;
+}
+
+span {
+  background-color: var(--gray-400);
+  padding: 1px 7px;
+  border-radius: 25px;
+  color: var(--gray-200);
+  font-size: .75rem;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

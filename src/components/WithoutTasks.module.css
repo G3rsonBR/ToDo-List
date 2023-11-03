@@ -1,0 +1,23 @@
+.content {
+  text-align: center;
+  border-top: solid 1px var(--gray-500);
+  padding-top: 4rem;
+}
+
+.content > .contentIcon {
+  color: var(--gray-400);
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.content > .contentTitle {
+  font-size: 1rem;
+  color: var(--gray-300);
+  font-weight: bold;
+}
+
+.content > .contentText {
+  font-size: 1rem;
+  color: var(--gray-300);
+  font-weight: 100;
+}

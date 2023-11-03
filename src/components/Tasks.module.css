@@ -1,0 +1,65 @@
+.bodyTasks {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+}
+
+.labelTasks {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--gray-100);
+}
+
+.labelTasks input[type="checkbox"] {
+  appearance: none;
+  width: 17.45px;
+  height: 17.45px;
+  border-radius: 50%;
+  border: 2px solid var(--blue);
+}
+
+.labelTasks input[type="checkbox"]:hover {
+  background-color: var(--blue-dark-15p);
+}
+
+.labelTasks input[type="checkbox"]:checked {
+  background-color: var(--purple-dark);
+  border: none;
+  background-image: url(../assets/checked.svg);
+  background-position: center;
+  background-size: 12px;
+  background-repeat: no-repeat;
+}
+
+.labelTasks input[type="checkbox"]:checked:hover {
+  background-color: var(--purple);
+}
+
+.bodyTasks button {
+  background-color: transparent;
+  border: none;
+  color: var(--gray-300);
+  transition: .2s;
+}
+
+.bodyTasks .taskButton {
+  box-sizing: initial;
+  vertical-align: middle;
+  padding: .5rem;
+  width: 12.48px;
+  height: 14px;
+  transition: .2s;
+}
+
+.bodyTasks .taskButton:hover {
+  color: var(--danger);
+}
+
+.bodyTasks button:hover {
+  background-color: var(--gray-400);
+}

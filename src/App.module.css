@@ -1,0 +1,18 @@
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--gray-600);
+}
+
+.tasks {
+  margin-top: 4rem;
+  width: 45.375rem;
+}
+
+@media screen and (max-width: 753px) {
+  .tasks {
+    width: 95vw;
+  }
+}

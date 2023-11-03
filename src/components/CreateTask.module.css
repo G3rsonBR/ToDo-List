@@ -1,0 +1,57 @@
+.taskForm {
+  display: flex;
+  margin-top: calc(0px - 1.6875rem);
+  gap: 8px;
+}
+
+.taskForm textarea {
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  resize: none;
+  width: 39.875rem;
+  height: 3.375rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+}
+
+.taskForm button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 5.625rem;
+  height: 3.375rem;
+  background-color: var(--blue-dark);
+  border: none;
+  border-radius: 8px;
+  color: var(--gray-100);
+  font-weight: bold;
+  font-size: .875rem;
+  transition: .2s;
+}
+
+.taskForm button:hover {
+  background-color: var(--blue);
+}
+
+.textButton {
+  background-color: transparent;
+  padding: 0;
+}
+
+.taskForm .plusCircleIcon{
+  width: 1rem;
+  height: 1rem;
+}
+
+@media screen and (max-width: 753px) {
+  .taskForm {
+    width: 95vw;
+  }
+
+  .textButton {
+    display: none;
+  }
+}
+
