@@ -11,8 +11,9 @@
   width: 45.375rem;
 }
 
-@media screen and (max-width: 753px) {
+@media screen and (max-width: 768px) {
   .tasks {
+    margin-top: 2rem;
     width: 95vw;
   }
 }

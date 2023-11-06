@@ -9,10 +9,19 @@ export function TasksHeader({ numberTasks, numberTasksCompleted }:TasksHeaderPro
   return (
     <header>
       <h2 className={styles.tasksCreated}>
-        Tarefas criadas<span>{numberTasks}</span>
+        <span className={styles.spanTaskText}>
+          Tarefas
+        </span>
+        Criadas
+        <span className={styles.spanNumber}>
+          {numberTasks}
+          </span>
       </h2>
       <h2 className={styles.tasksFinished}>
-        Concluídas<span>{numberTasksCompleted} de {numberTasks}</span>
+        Concluídas
+        <span className={styles.spanNumber}>
+          {numberTasksCompleted} de {numberTasks}
+        </span>
       </h2>
     </header>
   );

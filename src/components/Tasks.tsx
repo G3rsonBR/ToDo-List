@@ -11,7 +11,7 @@ export function Tasks({ task }: Task) {
     <div className={styles.bodyTasks}>
       <label htmlFor={`task-${task.id}`} className={styles.labelTasks}>
         <input id={`task-${task.id}`} type="checkbox" className="inputCheck" />
-        {task.content}
+        <span>{task.content}</span> 
       </label>
       <button>
         <Trash className={styles.taskButton} />

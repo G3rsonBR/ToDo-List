@@ -40,6 +40,10 @@
   background-color: var(--purple);
 }
 
+input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+}
+
 .bodyTasks button {
   background-color: transparent;
   border: none;

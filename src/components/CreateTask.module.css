@@ -45,7 +45,7 @@
   height: 1rem;
 }
 
-@media screen and (max-width: 753px) {
+@media screen and (max-width: 768px) {
   .taskForm {
     width: 95vw;
   }
@@ -54,4 +54,3 @@
     display: none;
   }
 }
-

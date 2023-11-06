@@ -6,3 +6,9 @@
   width: 100vw;
   height: 12.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 8rem;
+  }
+}
